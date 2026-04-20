@@ -118,6 +118,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const premiumSections = [
     document.getElementById("programs"),
+    document.getElementById("placements"),
+    document.getElementById("campus-life"),
     document.getElementById("facilities"),
     document.getElementById("faculty"),
     document.getElementById("achievements"),
@@ -324,3 +326,4 @@ document.addEventListener("DOMContentLoaded", () => {
     marqueeObserver.observe(marqueeStrip);
   }
 });
+
